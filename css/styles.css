@@ -2,8 +2,49 @@
 @import url(https://fonts.googleapis.com/css?family=Electrolize);
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap);
 
+/* Don't change */
 html {
+  box-sizing: border-box;
+  font-size: 12px;
   font-family: "Electrolize", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+p {
+  padding: 0;
+  font-weight: normal;
+}
+
+ul {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  float: left;
+  padding: 1rem;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 0.25rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 @media (min-width: 576px) {
@@ -45,16 +86,15 @@ main {
   text-align: center;
 }
 
-main > .intro {
-  font-size: 3rem;
-  font-weight: 600;
+main > .title {
+  font-size: 4rem;
+  font-weight: 400;
 }
-
-main > .definition {
-  font-family: "Open Sans";
+.title > img {
+  height: 3rem;
 }
 
 main > .tagline {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 100;
 }
