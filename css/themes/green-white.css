@@ -1,12 +1,13 @@
 /* Theme */
+/* 4ecdc4 */
 
 main {
-  background: #1a535c;
+  background: #4ecdc4;
   color: #f7fff7;
 }
 
 .tagline {
-  color: #4ecdc4;
+  color: #1a535c;
 }
 
 .icons-social a {
